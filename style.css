@@ -81,6 +81,10 @@
 }
 
 .fon_container{
+  background-image: url(./img/city.jpg);
+  width: 100%;
+  height: 326px;
+  background-repeat: round;
   box-sizing: border-box;
   width: 100%;
   height: 326px;
@@ -99,7 +103,7 @@
   .fon_text{
 text-align: center;
 font-size: 16px;
-color: gray;
+color: white;
 padding-top: 80px;
   }
 
@@ -109,18 +113,21 @@ padding-top: 80px;
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
   text-align: center;
+  color: yellow;
 }
 
 .fon_download{
 font-size: 15px;
 text-align: center;
 box-sizing: border-box;
-border: 1px solid red;
+border: 1px solid white;
+border-radius: 5%;
 width: 135px;
 height: 42px;
 margin-left: calc(50% - 67px);
 padding-top: 8px;
 margin-top: 30px;
+color: violet;
 }
 
 footer{
