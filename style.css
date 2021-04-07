@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  html {
+      font-size: 14px;
+  }
+
+  h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .brd{
+    border: 1px solid #E72424;
+    background: red;
+    position: absolute;
+    width: 64px;
+    height: 2px;
+    left: calc(50% - 32px);
+    top: 163px;
+  }
+
+.adz{
+    font-size: 14px;
+    line-height: 19px;
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+.tile_wrapper{
+  font-size: 0px; /*Почему когда мы написали эту строку и посмотрели в хроме страницу, то текст куда-то пропал?*/
+  margin: 0 -0.5rem; /*спросить для чего эта строка*/
+  width: calc(100%); /*спросить для чего эта строка (почему она создает скрол? "width: calc(100% + 1rem)")*/
+}
+
+.tile_container{
+  margin-top: 50px;
+  width: calc(100% / 3);
+  font-size: 0px;
+  display: inline-block; /*спросить разные значения инлайн и блок и как они работают вместе*/
+ box-sizing: border-box; /*это позволяет нам создать сам контейнер в который будет помещен контент?*/
+ padding: 0.5rem;
+}
+
+.tile{
+  font-size: 1rem;
+  border: 2px ;
+  padding: 1rem;
+  text-align: center;
+}
+
+.tile_image{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  border: 2px solid red;
+  position: relative;
+}
+
+.tile_description {
+  margin-top: 1rem;
+}
+
+.tile img{
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%); /*спросить "Зачем эта строчка и что она делает"*/
+  position: absolute;
+}
+.tile_name{
+  margin-top: 60px;
+}
+
+.fon_container{
+  box-sizing: border-box;
+  width: 100%;
+  height: 326px;
+  }
+
+  .fon_line{
+      border: 1px solid #E72424;
+      background: red;
+      position: relative;
+      width: 64px;
+      height: 2px;
+      left: calc(50% - 32px);
+      top: 48px;
+  }
+
+  .fon_text{
+text-align: center;
+font-size: 16px;
+color: gray;
+padding-top: 80px;
+  }
+
+.fon_name{
+  margin-top: 76px;
+  padding-top: 76px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.fon_download{
+font-size: 15px;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid red;
+width: 135px;
+height: 42px;
+margin-left: calc(50% - 67px);
+padding-top: 8px;
+margin-top: 30px;
+}
+
+footer{
+position: absolute;
+width: 100%;
+height: 101px;
+background-color: #000;
+}
+
+.fot_image{
+  padding-top: 30px;
+text-align: center;
+}
+
+.fot_name{
+  padding-top: 18px;
+  color:gray;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
